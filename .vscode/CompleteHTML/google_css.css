@@ -1,0 +1,35 @@
+body{
+    background: rgb(255, 255, 255);
+}
+.google{
+    background:rgb(255, 255, 255);
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 160px 380px ;
+}
+.search{
+    width: auto;
+    height: auto;
+}
+.lang{
+    list-style-type: none;
+    background: rgb(255, 255, 255);
+    width: 500px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: -160px 380px ;
+    color: blue;
+}
+.lang a{
+    padding-right: 6px;
+    color: green;
+}
+.google img{
+    width: 200px;
+    height: 100px;
+}

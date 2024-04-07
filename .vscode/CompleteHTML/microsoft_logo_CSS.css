@@ -1,0 +1,43 @@
+
+#parent{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#parent2{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;  /*for adjusting along columns*/
+    justify-content: center;  /*for default parameters in this ex row is the parameter*/
+}
+.child1{
+    background: #f14f21;
+    width: 200px;
+    height: 200px;
+    margin: 5px;   
+}
+.child2{
+    background: #7eb900;
+    width: 200px;
+    height: 200px;
+    margin: 5px; 
+}
+.child3{
+    background:#00a3ee;
+    width: 200px;
+    height: 200px;
+    margin: 5px;    
+}
+.child4{
+    background:#feb800;
+    width: 200px;
+    height: 200px;
+    margin: 5px;   
+}
+
+
